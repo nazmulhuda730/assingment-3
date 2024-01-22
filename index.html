@@ -24,7 +24,7 @@
 </head>
 
 <body class="manrope">
-    <header class="container mx-auto">
+    <header class="container lg:mx-auto">
         <!-- navbar section  -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -45,7 +45,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold">Hockey’s</a>
+                <a class="text-2xl lg:text-4xl font-extrabold">Hockey’s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-base font-normal">
@@ -61,6 +61,44 @@
                 <a class="btn btn-error">Get Ticket</a>
             </div>
         </div>
+        <!-- Banner Section -->
+        <section class="mx-2 relative">
+            <div class="carousel w-auto h-full lg:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle  bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide3" class="btn btn-circle  bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle  bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide4" class="btn btn-circle  bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full rounded-2xl" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle  bg-black text-white border-none hover:text-black">❮</a>
+                        <a href="#slide1" class="btn btn-circle  bg-black text-white border-none hover:text-black">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute lg:right-14 lg:top-80 bg-black text-white p-4 lg:p-8 lg:w-[31.3rem] lg:h-44 rounded-2xl">
+                <h2 class="text-lg lg:text-2xl font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-sm lg:text-base font-medium mt-2 lg:mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+        </section>
     </header>
 </body>
 
